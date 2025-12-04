@@ -9,16 +9,16 @@ local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "script loading..",
     Text = "wait 10 seconds to load",
-    Duration = 8, -- seconds the notification stays on screen
+    Duration = 10, -- seconds the notification stays on screen
     Button1 = "Got it"
 })
 
 
-task.wait(8)
+task.wait(10)
 StarterGui:SetCore("SendNotification", {
     Title = "❗",
     Text = "chronic hits the hardest",
-    Duration = 8, -- seconds the notification stays on screen
+    Duration = 10, -- seconds the notification stays on screen
     Button1 = "Got it"
 })
 
